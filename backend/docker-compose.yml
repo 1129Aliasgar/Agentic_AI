@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - PORT=5000
+      - OLLAMA_API_URL=http://ollama:11434
+      - OLLAMA_MODEL=llama3.2:latest
+      - CORS_ORIGIN=http://localhost:3000
+      - OSRM_API_URL=http://router.project-osrm.org
+    depends_on:
+      - ollama
+    volumes:
+      - ./uploads:/app/uploads
+    env_file:
+      - .env
+
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    # Auto-pull model on startup (lightweight, faster models)
+    command: >
+      sh -c "ollama serve & sleep 5 && ollama pull llama3.2:latest || ollama pull llama3.2 || ollama pull phi3:mini || true"
+
+volumes:
+  ollama_data:
+

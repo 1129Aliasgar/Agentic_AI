@@ -1,0 +1,67 @@
+EMAIL TEST DATA - Copy and paste these into the Email Management page
+
+=== Example 1: Priority Sorting ===
+From: manager@company.com
+Subject: URGENT: Project deadline moved to Friday
+Date: 2024-01-15 10:00 AM
+Hi team, we need to finish the project by Friday. This is high priority.
+
+From: colleague@company.com
+Subject: Weekly team meeting
+Date: 2024-01-15 2:00 PM
+Let's schedule our weekly meeting for next Monday at 3 PM.
+
+From: newsletter@example.com
+Subject: Monthly newsletter
+Date: 2024-01-15 9:00 AM
+Check out our monthly updates and news.
+
+=== Example 2: Meeting Scheduling ===
+From: john@company.com
+Subject: Meeting request - Project discussion
+Date: 2024-01-16 11:00 AM
+Hi, can we schedule a meeting on January 20th at 2 PM to discuss the project?
+
+From: sarah@company.com
+Subject: Deadline reminder
+Date: 2024-01-16 10:00 AM
+Don't forget the report is due on January 25th at 5 PM.
+
+=== Example 3: Mixed Priority ===
+From: urgent@company.com
+Subject: CRITICAL: System maintenance tonight
+Date: 2024-01-16 8:00 AM
+System will be down for maintenance tonight from 10 PM to 2 AM. High priority.
+
+From: info@company.com
+Subject: Office party next week
+Date: 2024-01-16 3:00 PM
+Join us for the office party on January 22nd at 6 PM.
+
+From: support@company.com
+Subject: Ticket #1234 resolved
+Date: 2024-01-16 4:00 PM
+Your support ticket has been resolved. Let us know if you need anything else.
+
+=== Example 4: Calendar Events ===
+From: calendar@company.com
+Subject: Interview scheduled
+Date: 2024-01-17 9:00 AM
+Interview scheduled for January 18th at 10:00 AM with candidate John Doe.
+
+From: events@company.com
+Subject: Conference registration
+Date: 2024-01-17 2:00 PM
+Tech conference registration deadline is January 19th at 11:59 PM.
+
+=== Example 5: Simple Test ===
+From: test@example.com
+Subject: Test email
+Date: 2024-01-17 12:00 PM
+This is a simple test email for sorting functionality.
+
+From: important@company.com
+Subject: IMPORTANT: Review needed
+Date: 2024-01-17 1:00 PM
+Please review the attached document by end of day. This is important.
+
